@@ -1,0 +1,118 @@
+[
+    {
+        "type": "dir",
+        "name": "Basics",
+        "children": [
+            {
+                "type": "file",
+                "name": "Getting Started",
+                "route": "basics/gettingstarted",
+                "data": "fCAhW10oaW1hZ2VzL2hvbWUtZG93bmxvYWQucG5nKQp8IFJlYWR5IHRvIGJlY29tZSBhbiBVbWJyYW5pYW4/IEZvbGxvdyB0aGUgaW5zdGFsbGF0aW9uIGd1aWRlIHRvIGdldCB0aGUgcGx1Z2luIHVwIGFuZCBydW5uaW5nIGluIG5vIHRpbWUuCgojIEdldHRpbmcgU3RhcnRlZAoKVW1icmEgaXMgYSBwbHVnaW4gZm9yIEZpbmFsIEZhbnRhc3kgWElWIHRoYXQgcHJvdmlkZXMgY3VzdG9taXphYmxlIHRvb2xiYXJzIGFuZCB3b3JsZCBtYXJrZXJzIGZvciB1c2UgaW4gdGhlIGdhbWUuIFRoZQp0b29sYmFyIGNvbnNpc3RzIG9mIGN1c3RvbWl6YWJsZSB3aWRnZXRzIHRoYXQgY2FuIGJlIHVzZWQgdG8gZGlzcGxheSBhbGwga2luZHMgb2YgaW5mb3JtYXRpb24gb3IgcHJvdmlkZSBxdWljayBhY2Nlc3MKdG8gdmFyaW91cyBmZWF0dXJlcyBvZiB0aGUgZ2FtZS4gV29ybGQgbWFya2VycyBhcmUgZHJhd24gb24gdGhlIGdhbWUgd29ybGQgdG8gaGVscCB5b3UgZmluZCB2YXJpb3VzIHBvaW50cyBvZiBpbnRlcmVzdCwKc3VjaCBhcyBnYXRoZXJpbmcgbm9kZXMsIHRyZWFzdXJlIGNoZXN0cywgb3IgcXVlc3Qgb2JqZWN0aXZlcy4KClVtYnJhIGlzIGRlc2lnbmVkIHRvIGJlIF9tb2R1bGFyXyBhbmQgZnVsbHkgX2N1c3RvbWl6YWJsZV8uIFlvdSBjYW4gY3JlYXRlIHlvdXIgb3duIHRvb2xiYXIgcHJvZmlsZXMgY29uc2lzdGluZyBvZiBhbnkKYXJyYW5nZW1lbnQgb2Ygd2lkZ2V0cyBhbmQgY3VzdG9taXplIHRoZW0gdG8geW91ciBsaWtpbmcuIFlvdSBjYW4gYWxzbyBjcmVhdGUgeW91ciBvd24gY29sb3IgcHJvZmlsZXMgZm9yIHRoZSBpbnRlcmZhY2UKdG8gbWF0Y2ggdGhlIGxvb2sgYW5kIGZlZWwgb2YgeW91ciBleGlzdGluZyBVSS4KCiFbXShpbWFnZXMvdG9vbGJhci5wbmcpCgojIyBJbnN0YWxsaW5nIFVtYnJhCgpVbWJyYSBpcyBhIHBsdWdpbiB0aGF0IHJlcXVpcmVzIHRoZSB1c2Ugb2YgYSB0aGlyZC1wYXJ0eSB0b29sIGNhbGxlZCBbWElWTGF1bmNoZXJdKGh0dHBzOi8vZ29hdGNvcnAuZ2l0aHViLmlvLykgdG8gcnVuLgpPbmNlIHlvdSBoYXZlIFhJVkxhdW5jaGVyIGluc3RhbGxlZCwgeW91IGNhbiBvcGVuIHRoZSBwbHVnaW4gaW5zdGFsbGVyIGluLWdhbWUgYW5kIHNlYXJjaCBmb3IgIlVtYnJhIFhJViIgdG8gaW5zdGFsbCBpdC4KCiFbXShpbWFnZXMvZG9jcy9kYWxhbXVkLWluc3RhbGxlci5wbmcpCgpPbmNlIHlvdSBoYXZlIFVtYnJhIGluc3RhbGxlZCwgYSAiRmlyc3QgVGltZSBTZXR1cCIgd2luZG93IHdpbGwgYXBwZWFyLiBUaGlzIHdpbmRvdyB3aWxsIGd1aWRlIHlvdSB0aHJvdWdoIHRoZSBwcm9jZXNzCm9mIHNldHRpbmcgdXAgeW91ciBpbml0aWFsIHRvb2xiYXIgcHJvZmlsZS4gQWZ0ZXIgeW91IGhhdmUgY29tcGxldGVkIHRoZSBpbml0aWFsIHNldHVwLCB5b3UgY2FuIGFjY2VzcyBVbWJyYSdzIHNldHRpbmdzCndpbmRvdyBieSB0eXBpbmcgYC91bWJyYWAgaW4gdGhlIGNoYXQgd2luZG93LgoKIVtdKGltYWdlcy9kb2NzL3VtYnJhLW9vYmUucG5nKQoKQWZ0ZXIgdGhlIGluaXRpYWwgc2V0dXAgaXMgY29tcGxldGUsIHlvdSBjYW4gYWNjZXNzIHRoZSBTZXR0aW5ncyB3aW5kb3cgdG8gc3RhcnQgY3VzdG9taXppbmcgeW91ciB0b29sYmFyIGFuZCB3b3JsZAptYXJrZXJzLgo=",
+                "chapters": [
+                    {
+                        "name": "Installing Umbra",
+                        "slug": "installing-umbra"
+                    }
+                ],
+                "isSplash": true
+            },
+            {
+                "type": "file",
+                "name": "The Settings Window",
+                "route": "basics/settings",
+                "data": "IyBUaGUgU2V0dGluZ3MgV2luZG93CgpUaGUgc2V0dGluZ3Mgd2luZG93IGlzIHdoZXJlIHlvdSBjYW4gY3VzdG9taXplIHlvdXIgdG9vbGJhciBhbmQgd29ybGQgbWFya2VycyB0byB5b3VyIGxpa2luZy4gWW91IGNhbiBhY2Nlc3MgdGhlCnNldHRpbmdzIHdpbmRvdyBieSB0eXBpbmcgYC91bWJyYWAgaW4gdGhlIGNoYXQgd2luZG93LgoKPiBbIVRJUF0KPiBVbWJyYSBpcyBhIF9sYXJnZV8gcGx1Z2luIHdpdGggX21hbnlfIHNldHRpbmdzLiBUaGlzIGNhbiBmZWVsIG92ZXJ3aGVsbWluZyBhdCBmaXJzdCwgYnV0IGRvbid0IHdvcnJ5ISBUYWtlIHlvdXIgdGltZQo+IHRvIGV4cGxvcmUgdGhlIGF2YWlsYWJsZSBzZXR0aW5ncyBhbmQgZXhwZXJpbWVudCB3aXRoIGRpZmZlcmVudCBjb25maWd1cmF0aW9ucy4gWW91IGNhbiBhbHdheXMgcmVzZXQgeW91ciBzZXR0aW5ncyB0bwo+IHRoZSBkZWZhdWx0IHZhbHVlcyBpZiB5b3UgZ2V0IGxvc3QuCgpUaGUgc2V0dGluZ3Mgd2luZG93IGlzIGRpdmlkZWQgaW50byBzZXZlcmFsICJtb2R1bGVzIiwgcmVwcmVzZW50ZWQgYXMgdGFicyBvbiB0aGUgbGVmdCBzaWRlIG9mIHRoZSB3aW5kb3cuIEVhY2ggbW9kdWxlCmNvbnRhaW5zIGEgc2V0IG9mIHNldHRpbmdzIHRoYXQgeW91IGNhbiBhZGp1c3QuCgohW10oaW1hZ2VzL2RvY3MvdW1icmEtc2V0dGluZ3MucG5nKQoKIyMgMS4gVG9vbGJhciBXaWRnZXRzCgpUaGlzIGlzIHRoZSBmaXJzdCB0YWIgeW91IHdpbGwgc2VlIHdoZW4geW91IG9wZW4gdGhlIHNldHRpbmdzIHdpbmRvdy4gSGVyZSB5b3UgY2FuIGFkZCwgcmVtb3ZlLCBhbmQgcmVvcmRlciB0aGUgd2lkZ2V0cwpvbiB5b3VyIG1haW4gdG9vbGJhciwgYXMgd2VsbCBhcyBjdXN0b21pemUgdGhlIHNldHRpbmdzIGZvciBlYWNoIHdpZGdldC4KW1JlYWQgbW9yZSBhYm91dCBUb29sYmFyIFdpZGdldHNdKCMvdG9vbGJhci9pbnRyb2R1Y3Rpb24pLgoKIyMgMi4gQXV4aWxpYXJ5IEJhcgoKVGhlIEF1eGlsaWFyeSBCYXIgaXMgYSBzZWNvbmRhcnkgdG9vbGJhciB0aGF0IGNhbiBiZSBwbGFjZWQgYW55d2hlcmUgb24gdGhlIHNjcmVlbi4gWW91IGNhbiBhZGQsIHJlbW92ZSwgYW5kIHJlb3JkZXIKd2lkZ2V0cyBvbiB0aGUgQXV4aWxpYXJ5IEJhciBpbiB0aGUgc2FtZSB3YXkgYXMgdGhlIG1haW4gdG9vbGJhci4KW1JlYWQgbW9yZSBhYm91dCB0aGUgQXV4aWxpYXJ5IEJhcl0oIy90b29sYmFyL2F1eGlsaWFyeS1iYXIpLgoKIyMgMy4gV29ybGQgTWFya2VycwoKVGhpcyB0YWIgc2hvd3MgYSBsaXN0IG9mIGF2YWlsYWJsZSBfd29ybGQgbWFya2VyIHR5cGVzXy4gRWFjaCB3b3JsZCBtYXJrZXIgdHlwZSBjYW4gYmUgY3VzdG9taXplZCB3aXRoIGl0cyBvd24gc2V0IG9mCnNldHRpbmdzLiBZb3UgY2FuIGVuYWJsZSBvciBkaXNhYmxlIHRoZW0sIGNoYW5nZSB0aGVpciBmYWRlIGRpc3RhbmNlcyBhbmQgbW9yZS4KW1JlYWQgbW9yZSBhYm91dCBNYXJrZXIgU2V0dGluZ3NdKCMvbWFya2Vycy9pbnRyb2R1Y3Rpb24pLgoKIyMgNC4gR2VuZXJhbCBTZXR0aW5ncwoKVGhlIEdlbmVyYWwgU2V0dGluZ3MgdGFiIGNvbnRhaW5zIGEgdmFyaWV0eSBvZiBzZXR0aW5ncyB0aGF0IGFmZmVjdCBVbWJyYSBhcyBhIHdob2xlLiBIZXJlIHlvdSBjYW4gYWRqdXN0IHRoZSBzaXplIGFuZApwb3NpdGlvbiBvZiB0aGUgdG9vbGJhciwgY2hhbmdlIHZpc2liaWxpdHkgc2V0dGluZ3MgYW5kIG1vcmUuCltSZWFkIG1vcmUgYWJvdXQgR2VuZXJhbCBTZXR0aW5nc10oIy9iYXNpY3MvZ2VuZXJhbC1zZXR0aW5ncykuCgojIyA1LiBNYXJrZXIgU2V0dGluZ3MKClRoZSBNYXJrZXIgU2V0dGluZ3MgdGFiIGNvbnRhaW5zIHNldHRpbmdzIHRoYXQgYWZmZWN0IHRoZSBhcHBlYXJhbmNlIGFuZCBiZWhhdmlvciBvZiBhbGwgd29ybGQgbWFya2Vycy4gSGVyZSB5b3UgY2FuCmFkanVzdCB0aGUgbGFiZWwgd2lkdGgsIGdyb3VwIG1hcmtlcnMgYnkgYSBzcGVjaWZpYyBkaXN0YW5jZSBmcm9tIGVhY2ggb3RoZXIsIGFuZCBtb3JlLgpbUmVhZCBtb3JlIGFib3V0IE1hcmtlciBTZXR0aW5nc10oIy9tYXJrZXJzL3NldHRpbmdzKS4KCiMjIDYuIEFwcGVhcmFuY2UKClRoZSBBcHBlYXJhbmNlIHRhYiBjb250YWlucyBzZXR0aW5ncyB0aGF0IGFmZmVjdCB0aGUgYXBwZWFyYW5jZSBvZiB0aGUgdG9vbGJhciBhbmQgVW1icmEncyB3aW5kb3dzLiBIZXJlIHlvdSBjYW4gY2hhbmdlCnRoZSBmb250cywgY29sb3JzLCBhbmQgb3RoZXIgdmlzdWFsIGFzcGVjdHMgb2YgdGhlIHBsdWdpbi4KW1JlYWQgbW9yZSBhYm91dCBBcHBlYXJhbmNlIFNldHRpbmdzXSgjL2N1c3RvbWl6YXRpb24vYXBwZWFyYW5jZSkuCgojIyA3LiBDb25maWcgUHJvZmlsZXMKCkNvbmZpZyBwcm9maWxlcyBhbGxvdyB5b3UgdG8gc2F2ZSBhbmQgbG9hZCBkaWZmZXJlbnQgY29uZmlndXJhdGlvbnMgb2YgVW1icmEuIFRoaXMgY2FuIGJlIHVzZWZ1bCBpZiB5b3Ugd2FudCB0byBzd2l0Y2gKYmV0d2VlbiBkaWZmZXJlbnQgc2V0dXBzIHF1aWNrbHkuIFtSZWFkIG1vcmUgYWJvdXQgQ29uZmlnIFByb2ZpbGVzXSgjL2Jhc2ljcy9jb25maWctcHJvZmlsZXMpLgoKIyMgOC4gUGx1Z2lucwoKVW1icmEgaGFzIHN1cHBvcnQgZm9yIGN1c3RvbSBwbHVnaW5zIHRoYXQgYWRkIGFkZGl0aW9uYWwgd2lkZ2V0IHR5cGVzIGFuZCB3b3JsZCBtYXJrZXJzIHRvIHRoZSBwbHVnaW4uIFRoZSBQbHVnaW5zIHRhYgpjb250YWlucyB0aGUgbmVjZXNzYXJ5IHNldHRpbmdzIHRvIG1hbmFnZSB0aGVzZSBwbHVnaW5zLiBbUmVhZCBtb3JlIGFib3V0IFBsdWdpbnNdKCMvY3VzdG9taXphdGlvbi9wbHVnaW5zKS4K",
+                "chapters": [
+                    {
+                        "name": "1. Toolbar Widgets",
+                        "slug": "toolbar-widgets"
+                    },
+                    {
+                        "name": "2. Auxiliary Bar",
+                        "slug": "auxiliary-bar"
+                    },
+                    {
+                        "name": "3. World Markers",
+                        "slug": "world-markers"
+                    },
+                    {
+                        "name": "4. General Settings",
+                        "slug": "general-settings"
+                    },
+                    {
+                        "name": "5. Marker Settings",
+                        "slug": "marker-settings"
+                    },
+                    {
+                        "name": "6. Appearance",
+                        "slug": "appearance"
+                    },
+                    {
+                        "name": "7. Config Profiles",
+                        "slug": "config-profiles"
+                    },
+                    {
+                        "name": "8. Plugins",
+                        "slug": "plugins"
+                    }
+                ],
+                "isSplash": false
+            }
+        ]
+    },
+    {
+        "type": "dir",
+        "name": "Toolbar",
+        "children": [
+            {
+                "type": "file",
+                "name": "Toolbar Guides",
+                "route": "toolbar/introduction",
+                "data": "fCAhW10oaW1hZ2VzL2hvbWUtd2lkZ2V0cy5wbmcpCnwgTGVhcm4gaG93IHRvIHVzZSBhbmQgY3VzdG9taXplIHRoZSB0b29sYmFyIGFuZCBpdHMgd2lkZ2V0cyB0byBtYWtlIGl0IHBlcnNvbmFsIHRvIHlvdXIgbmVlZHMuCgojIFRvb2xiYXIgR3VpZGVzCgpUb29sYmFyIGludHJvIGhlcmUuCg==",
+                "chapters": [],
+                "isSplash": true
+            },
+            {
+                "type": "dir",
+                "name": "Widgets",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "Unified Main Menu",
+                        "route": "toolbar/widgets/unified-main-menu",
+                        "data": "IyBVbmlmaWVkIE1haW4gTWVudQoKVGhpcyBpcyBhIHdpZGdldC4K",
+                        "chapters": [],
+                        "isSplash": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "dir",
+        "name": "Markers",
+        "children": [
+            {
+                "type": "file",
+                "name": "World Markers",
+                "route": "markers/world-marker-setup",
+                "data": "fCAhW10oaW1hZ2VzL2hvbWUtbWFya2Vycy5wbmcpCnwgTGVhcm4gaG93IHRvIHNldCB1cCBhbmQgdXNlIFVtYnJhJ3MgV29ybGQgTWFya2VycyBmZWF0dXJlIHRvIG1hcmsgcG9pbnRzIG9mIGludGVyZXN0IG9uIHRoZSBnYW1lIHdvcmxkLgoKIyBXb3JsZCBNYXJrZXJzCgpJbnRyb2R1Y3Rpb24gaGVyZS4K",
+                "chapters": [],
+                "isSplash": true
+            }
+        ]
+    },
+    {
+        "type": "dir",
+        "name": "Customization",
+        "children": [
+            {
+                "type": "file",
+                "name": "Customization",
+                "route": "customization/customization",
+                "data": "fCAhW10oaW1hZ2VzL2hvbWUtY3VzdG9tLnBuZykKfCBMZWFybiBob3cgdG8gY3VzdG9taXplIFVtYnJhIHRvIG1ha2UgaXQgdW5pcXVlIHRvIGZpdCB5b3VyIHBsYXlzdHlsZSBhbmQgbmVlZHMuCg==",
+                "chapters": [],
+                "isSplash": true
+            }
+        ]
+    }
+]
