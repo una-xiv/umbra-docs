@@ -40,6 +40,11 @@ function indexDocs() {
             const out = [];
             this.addWatchFile(docsPath);
             parseDocs(docsPath, docsPath, out, this.addWatchFile);
+
+            if (!fs.existsSync(path.resolve(docsPath, '../../site'))) {
+                fs.mkdirSync(path.resolve(docsPath, '../../site'));
+            }
+
             fs.writeFileSync(path.resolve(docsPath, '../../site/docs.json'), JSON.stringify(out, null, 4));
         }
     }
