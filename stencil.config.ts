@@ -16,8 +16,8 @@ export const config: Config = {
             copy: [
                 {src: 'index.html'},
                 {src: 'favicon.ico'},
-                {src: 'images', dest: 'images'},
-                {src: 'docs', dest: 'docs'},
+                {src: 'images', keepDirStructure: true},
+                {src: 'docs', keepDirStructure: true},
             ]
         }
     ],
