@@ -1,7 +1,8 @@
 import {Config} from '@stencil/core';
-import watch from "rollup-plugin-watch";
 import * as path from 'path';
 import * as fs from 'fs';
+
+const isWatching = process.argv.includes('--serve') || process.argv.includes('--watch')
 
 export const config: Config = {
     namespace: 'UmbraDocs',
@@ -18,20 +19,18 @@ export const config: Config = {
                 {src: 'favicon.ico'},
                 {src: 'images', keepDirStructure: true},
                 {src: 'docs', keepDirStructure: true},
+                {src: 'fonts', keepDirStructure: true},
+                {src: 'font-awesome.min.css'},
             ]
         }
     ],
     rollupPlugins: {
         before: [
-            watch({
-                dir: 'src/docs'
-            })
+            indexDocs(),
         ],
-        after: [
-            indexDocs()
-        ]
     },
 };
+
 function indexDocs() {
     return {
         name: 'index-docs',
@@ -46,7 +45,7 @@ function indexDocs() {
             }
 
             fs.writeFileSync(path.resolve(docsPath, '../../site/docs.json'), JSON.stringify(out, null, 4));
-        }
+        },
     }
 }
 

@@ -1,3 +1,5 @@
+@import url("../font-awesome.min.css");
+
 * {
     box-sizing: border-box;
 }
@@ -77,9 +79,13 @@ h1 {
 
 h2 {
     font-size: 28px;
-    margin: 8px 0;
-    padding: 8px 0;
+    padding: 0;
     border-bottom: 1px solid #b99755;
+    margin: 32px 0 0;
+
+    &:first-child {
+        margin-top: 0;
+    }
 }
 
 h3 {
@@ -119,8 +125,9 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 13px;
     padding: 8px 0;
+    margin: 8px 0;
 
     & > img {
         display: block;
@@ -147,6 +154,7 @@ p {
     margin: 8px 0;
 
     & > .markdown-alert-title {
+        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -154,24 +162,29 @@ p {
         gap: 8px;
         font-size: 18px;
         margin: 0;
-        padding: 0;
+        padding: 0 0 0 40px;
 
         & > svg {
+            position: absolute;
+            top: 0;
+            left: 0;
             fill: currentColor;
-            width: 24px;
-            height: 24px;
+            width: 36px;
+            height: 36px;
             padding: 4px;
         }
     }
 
-    & > p {
+    & > p:not(.markdown-alert-title) {
         padding: 0;
         margin: -4px 0 0 40px;
+        color: #fff !important;
     }
+
 
     &.markdown-alert-note {
         border-color: #17a2b8;
-        background: rgba(23, 162, 184, 0.1);
+        background: rgba(23, 162, 184, 0.01);
         color: #a0f0ff;
         text-shadow: 1px 1px #000;
     }
@@ -180,6 +193,13 @@ p {
         border-color: #ffc107;
         background: rgba(255, 193, 7, 0.1);
         color: #ffc107;
+        text-shadow: 1px 1px #000;
+    }
+
+    &.markdown-alert-caution {
+        border-color: #dc3545;
+        background: rgba(220, 25, 20, 0.1);
+        color: #d0c0b0;
         text-shadow: 1px 1px #000;
     }
 
@@ -198,15 +218,25 @@ p {
     }
 }
 
+i.fa.btn {
+    padding: 6px;
+    background: #101010;
+    border: 1px solid #3f3f3f;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
+    font-size: 13px;
 
     & > thead {
         & > tr {
             & > th {
                 text-align: left;
-                border-bottom: 1px solid #b99755;
+                border-bottom: 1px solid #3f3f3f;
                 padding: 4px;
             }
         }
@@ -216,6 +246,7 @@ table {
         & > tr {
             & > td {
                 padding: 4px;
+                font-size: 13px;
             }
         }
     }

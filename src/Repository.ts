@@ -10,8 +10,6 @@ export const Repository = new class {
         this.data = await (fetch('docs.json').then(r => r.json()));
 
         this.parseEntries(this.data);
-
-        console.log(this.pages);
     }
 
     /**
