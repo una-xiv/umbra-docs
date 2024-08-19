@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+:host {
+    justify-self: flex-start;
+}
+
+main {
+    max-width: 1200px;
+    width: 1000px;
+    margin: 0 auto;
+    background: #212021;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #2f2e2f;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .35);
+
+    & > footer {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        gap: 8px;
+        margin-top: 32px;
+        padding-top: 16px;
+        border-top: 1px solid #292929;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+        padding: 8px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    main {
+        width: 100%;
+        padding: 8px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    main {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1000px) {
+    main {
+        width: 1000px;
+        padding: 15px;
+    }
+}
+
+h1 {
+    font-size: 34px;
+    margin: 0 0 8px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #b99755;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #b99755;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 8px 0;
+    padding: 4px 8px;
+    border-left: 6px solid #b99755;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 4px 8px;
+    border-left: 6px solid #b99755;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 8px 0;
+    padding: 4px 8px;
+    border-left: 6px solid #b99755;
+}
+
+h6 {
+    color: #c0c0c0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: underline;
+    color: #b99755;
+
+    &:hover {
+        color: #ffd0a0;
+    }
+}
+
+p {
+    font-size: 14px;
+    padding: 8px 0;
+
+    & > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: 4px solid #1a1a1a;
+        border-radius: 8px;
+    }
+
+    & > code {
+        background: #101010;
+        padding: 4px;
+        border: 1px solid #2f2f2f;
+        border-radius: 4px;
+        font-family: "Droid Sans Mono", monospace;
+    }
+}
+
+.markdown-alert {
+    padding: 8px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin: 8px 0;
+
+    & > .markdown-alert-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 8px;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+
+        & > svg {
+            fill: currentColor;
+            width: 24px;
+            height: 24px;
+            padding: 4px;
+        }
+    }
+
+    & > p {
+        padding: 0;
+        margin: -4px 0 0 40px;
+    }
+
+    &.markdown-alert-note {
+        border-color: #17a2b8;
+        background: rgba(23, 162, 184, 0.1);
+        color: #a0f0ff;
+        text-shadow: 1px 1px #000;
+    }
+
+    &.markdown-alert-warning {
+        border-color: #ffc107;
+        background: rgba(255, 193, 7, 0.1);
+        color: #ffc107;
+        text-shadow: 1px 1px #000;
+    }
+
+    &.markdown-alert-important {
+        border-color: #dc3545;
+        background: rgba(220, 53, 69, 0.1);
+        color: #ffd0a0;
+        text-shadow: 1px 1px #000;
+    }
+
+    &.markdown-alert-tip {
+        border-color: #28a745;
+        background: rgba(40, 167, 69, 0.1);
+        color: #88f7a5;
+        text-shadow: 1px 1px #000;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    & > thead {
+        & > tr {
+            & > th {
+                text-align: left;
+                border-bottom: 1px solid #b99755;
+                padding: 4px;
+            }
+        }
+    }
+
+    & > tbody {
+        & > tr {
+            & > td {
+                padding: 4px;
+            }
+        }
+    }
+}

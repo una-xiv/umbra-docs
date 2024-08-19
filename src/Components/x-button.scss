@@ -1,0 +1,31 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: 0 0 4px #000;
+    color: #cac9ca;
+    background-color: #3a393a;
+    background-image: linear-gradient(to top, #212021 0%, #3a393a 100%);
+    border: 2px solid #3a393a;
+    user-select: none;
+    cursor: pointer;
+}
+
+:host(:hover) {
+    background-color: #3a393a;
+    background-image: linear-gradient(to top, #2f2e2f 0%, #3f3e3f 100%);
+    border: 2px solid #4f4f4f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
+}
+
+:host(:active) {
+    background-color: #3f3e3f;
+    background-image: linear-gradient(to top, #3f3e3f 0%, #2f2e2f 100%);
+    border: 2px solid #4f4f4f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
+}
